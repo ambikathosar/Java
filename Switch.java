@@ -25,10 +25,7 @@ public class Switch {
 			double subtractionResult = num1 - num2;
 			System.out.println("The result of subtraction is: " + subtractionResult);
 			break;
-		case "mul":
-			double multiplicationResult = num1 * num2;
-			System.out.println("The result of multiplication is: " + multiplicationResult);
-			break;
+		
 		default:
 			System.out.println("Invalid choice. Please choose 1, 2, or 3.");
 			break;
